@@ -44,7 +44,7 @@ $(document).ready(function() {
 										  '<td>'+value.priority+'</td>'+
 										  '<td>'+value.date+'</td>'+
 										  '<td>'+value.time+'</td>'+
-										  '<td><a href="edit.html?id='+value.id+'">Edit</a> | <a href="#" id="remove-task" data-id="'+value.id+'">Remove</a></td></tr>'	
+										  '<td><a href="edit-task.html?id='+value.id+'">Edit</a> | <a href="#" id="remove-task" data-id="'+value.id+'">Remove</a></td></tr>'	
 
 					);
 			}) 
